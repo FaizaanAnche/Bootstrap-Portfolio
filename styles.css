@@ -1,0 +1,138 @@
+/* CSS for Entire Site Start */
+
+body{
+    background-color:#FAF7F0;
+}
+
+.section-divider{
+    margin: auto;
+    opacity: 1;
+    width: 10%;
+    border-bottom: none;
+}
+
+/* CSS for Entire Site End */
+
+/* ---------------------------------------------- */
+
+/* Navbar CSS Start */
+
+.navbar-nav{
+    flex-direction: row;
+}
+
+.nav-link{
+    padding: 10px;
+}
+
+/* Navbar CSS End */
+
+/* ---------------------------------------------- */
+
+/* Hero Section CSS Start */
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    max-width: 100%;
+    min-width: 360px;
+    color: #5a4293;
+}
+
+.Intro-name{
+    font-size: 5rem;
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Great Vibes', cursive;
+    justify-content: center;
+}
+
+.Intro-role{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+/* Hero Section CSS End */
+
+/* ---------------------------------------------- */
+
+.hero-about-divider{
+    background-color:#FAF7F0;
+    border-top: #AEE2FF dotted 5px;
+}
+
+/* ---------------------------------------------- */
+
+/* About Section CSS Start */
+
+.about-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.about-heading{
+    font-family: sans-serif;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.about-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-info{
+    font-family: sans-serif;
+    width: 30%;
+    font-size: 1.25em;
+}
+
+
+/* About Section CSS End */
+
+/* ---------------------------------------------- */
+
+/* Skills Section CSS Start */
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.feature{
+    padding: 20px;
+}
+
+.skills-section{
+    background-color: #E6FFFD;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-description{
+    text-align: justify;
+    word-spacing: 5px;
+    
+}
+
+/* SKills Section CSS End */
+
+/* ---------------------------------------------- */
+
+/* .skills-project-divider{
+    background-color:#AEE2FF;
+    border-top: #FAF7F0 dotted 5px;
+} */
+
+/* ---------------------------------------------- */
