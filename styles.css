@@ -1,14 +1,12 @@
-/* CSS for Entire Site Start */
 
-body{
-    background-color:#FAF7F0;
-}
+/* CSS for Entire Site Start */
 
 .section-divider{
     margin: auto;
     opacity: 1;
     width: 10%;
     border-bottom: none;
+    border-top: lightgray 8px dotted;
 }
 
 /* CSS for Entire Site End */
@@ -17,12 +15,17 @@ body{
 
 /* Navbar CSS Start */
 
+.navbar{
+    background-color: white;
+}
+
 .navbar-nav{
     flex-direction: row;
 }
 
 .nav-link{
     padding: 10px;
+    color: black;
 }
 
 /* Navbar CSS End */
@@ -40,7 +43,8 @@ body{
     height: 100vh;
     max-width: 100%;
     min-width: 360px;
-    color: #5a4293;
+    background-color: black;
+    color: white;
 }
 
 .Intro-name{
@@ -61,13 +65,6 @@ body{
 
 /* ---------------------------------------------- */
 
-.hero-about-divider{
-    background-color:#FAF7F0;
-    border-top: #AEE2FF dotted 5px;
-}
-
-/* ---------------------------------------------- */
-
 /* About Section CSS Start */
 
 .about-section{
@@ -75,6 +72,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 
@@ -102,37 +100,5 @@ body{
 
 /* ---------------------------------------------- */
 
-/* Skills Section CSS Start */
 
-.feature-icon {
-    width: 4rem;
-    height: 4rem;
-    border-radius: .75rem;
-}
 
-.feature{
-    padding: 20px;
-}
-
-.skills-section{
-    background-color: #E6FFFD;
-    display: flex;
-    justify-content: center;
-}
-
-.skill-description{
-    text-align: justify;
-    word-spacing: 5px;
-    
-}
-
-/* SKills Section CSS End */
-
-/* ---------------------------------------------- */
-
-/* .skills-project-divider{
-    background-color:#AEE2FF;
-    border-top: #FAF7F0 dotted 5px;
-} */
-
-/* ---------------------------------------------- */
