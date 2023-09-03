@@ -75,8 +75,6 @@
     
 }
 
-
-
 .about-heading{
     font-family: sans-serif;
     justify-content: center;
@@ -100,5 +98,20 @@
 
 /* ---------------------------------------------- */
 
+/* SKills Section CSS Start */
 
+.skill-description{
+    max-width: 500px;
+    margin: auto;
+}
 
+/* Skills Section CSS End */
+
+/* ---------------------------------------------- */
+
+/* Contact Section CSS Start */
+
+.contact-section{
+    background-color: black;
+    color: white;
+}
